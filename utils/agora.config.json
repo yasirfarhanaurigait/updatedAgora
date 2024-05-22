@@ -1,0 +1,27 @@
+{
+  "//appId": "Get your own App ID at https://dashboard.agora.io/",
+  "appId": "b5a7270cf93e43678b068f1ea23e2146",
+  "//token": "Please refer to https://docs.agora.io/en/Agora%20Platform/token",
+  "token": "",
+  "//channelId": "Your channel ID",
+  "channelId": "163516910459233",
+  "channelName": "demo",
+  "interviewSchedule_ID": "",
+  "user_ID": "",
+  "token_type": "",
+  "access_token": "",
+  "//uid": "Your int user ID",
+  "uid": 1807,
+  "//stringUid": "Your string user ID",
+  "stringUid": "0",
+  "primaryResercherUID": 240000,
+  "sreenShareUID": 123456789,
+  "othersreenShareUID": 12345678,
+  "microsoftKey": "896ae8a6c1c84cff9956584ce61c7646",
+  "microsoftRegion": "eastasia"
+
+
+
+  
+}
+

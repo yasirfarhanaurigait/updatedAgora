@@ -55,7 +55,7 @@ react {
  * Set this to true to Run Proguard on Release builds to minify the Java bytecode.
  */
 def enableProguardInReleaseBuilds = false
-
+apply from: "../../node_modules/react-native-vector-icons/fonts.gradle"
 /**
  * The preferred build flavor of JavaScriptCore (JSC)
  *
@@ -102,11 +102,13 @@ android {
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
         }
     }
+   
 }
 
 dependencies {
     // The version of react-native is set by the React Native Gradle Plugin
     implementation("com.facebook.react:react-android")
+     implementation 'com.microsoft.cognitiveservices.speech:client-sdk:1.34.0'
 
     if (hermesEnabled.toBoolean()) {
         implementation("com.facebook.react:hermes-android")
